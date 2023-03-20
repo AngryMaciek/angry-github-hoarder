@@ -10,5 +10,6 @@ Ironically, I package it as a repo... and upload to GitHub -_-
 ```
 conda create --name github-hoarder
 conda activate github-hoarder
+conda install pip
 pip install PyGithub
 ```
