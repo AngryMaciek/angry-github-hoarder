@@ -70,7 +70,7 @@ def main():
             "git",
             "clone",
             url,
-            "../" + dirname + "/" + k
+            "./backup/" + dirname + "/" + k
         ])
 
 
