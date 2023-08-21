@@ -62,7 +62,7 @@ def main():
     }
     # create a backup dir
     dirname = datetime.today().strftime("%Y%m%d-%H%M%S")
-    os.makedirs("../" + dirname)
+    os.makedirs("./backup/" + dirname)
     # clone all user repos
     for k, v in userrepos.items():
         url = "https://" + options.pat + "@" + v.removeprefix("git://")
